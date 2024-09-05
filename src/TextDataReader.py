@@ -19,5 +19,5 @@ class TextDataReader(DataReader):
                 else:
                     subj, score = line.split(":", maxsplit=1)
                     self.students[self.key].append((subj.strip(),
-                                        int(score.strip())))
+                    int(score.strip())))
         return self.students

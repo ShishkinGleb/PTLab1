@@ -6,7 +6,7 @@ from abc import ABC, abstractmethod
 
 class DataReader(ABC):
 
-  @abstractmethod
+    @abstractmethod
 
-  def read(self, path: str) -> DataType:
-    pass
+    def read(self, path: str) -> DataType:
+        pass

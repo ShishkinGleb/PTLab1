@@ -4,10 +4,12 @@ from src.main import get_path_from_arguments
 import pytest
 
 @pytest.fixture()
+
 def correct_arguments_string() -> tuple[list[str], str]:
     return ["-p", "/home/user/file.txt"], "/home/user/file.txt"
 
 @pytest.fixture()
+
 def noncorrect_arguments_string() -> list[str]:
     return ["/home/user/file.txt"]
 

@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import argparse
 import sys
 from CalcRating import CalcRating

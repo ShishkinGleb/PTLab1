@@ -16,7 +16,7 @@ def main():
     path = get_path_from_arguments(sys.argv[1:])
     reader = TextDataReader()
     students = reader.read(path)
-    print("Students: ", path)#students
+    print("Students: ", path)  # students
     rating = CalcRating(students).calc()
     print("Rating: ", rating)
 

@@ -3,6 +3,7 @@ import pytest
 from src.Types import DataType
 from src.XMLDataReader import XMLDataReader
 
+
 class TestXMLDataReader:
 
     @pytest.fixture()
@@ -29,7 +30,7 @@ class TestXMLDataReader:
             ]
         }
         return xml_mess, data
-    
+
     @pytest.fixture()
     def filepath_and_data(self, file_and_data_content: tuple[str, DataType],
                           tmpdir) -> tuple[str, DataType]:

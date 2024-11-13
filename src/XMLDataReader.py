@@ -14,7 +14,7 @@ class XMLDataReader(DataReader):
             student_name = student.get('name')
             self.students[student_name] = []
 
-            for subjec in student.findall('subject'):
+            for subject in student.findall('subject'):
                 subj_name = subject.get('name')
                 score = int(subject.get('score'))
                 self.students[student_name].append((subj_name, score))

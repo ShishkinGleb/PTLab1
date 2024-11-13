@@ -15,9 +15,6 @@ def get_path_from_arguments(args) -> str:
 
 def main():
     path = get_path_from_arguments(sys.argv[1:])
-    #path = "C:\VolgGTU\mag_1_1\tp\Lab_1_Shishkin\PTLab1\data\data.txt"
-    #print(path)
-    #reader = TextDataReader()
     reader = XMLDataReader()
     students = reader.read(path)
     print("Students: ", students)

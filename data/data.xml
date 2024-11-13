@@ -1,0 +1,12 @@
+<root>
+    <student name="Иванов Иван Иванович">
+        <subject name="Math" score="85"/>
+        <subject name="Programming" score="91"/>
+        <subject name="Literature" score="100"/>
+    </student>
+    <student name="Петров Петр Петрович">
+        <subject name="Math" score="100"/>
+        <subject name="Sociology" score="90"/>
+        <subject name="Chemistry" score="61"/>
+    </student>
+</root>

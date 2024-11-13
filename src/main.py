@@ -2,6 +2,7 @@ import argparse
 import sys
 from CalcRating import CalcRating
 from TextDataReader import TextDataReader
+from XMLDataReader import XMLDataReader
 
 
 def get_path_from_arguments(args) -> str:
@@ -14,7 +15,10 @@ def get_path_from_arguments(args) -> str:
 
 def main():
     path = get_path_from_arguments(sys.argv[1:])
-    reader = TextDataReader()
+    #path = "C:\VolgGTU\mag_1_1\tp\Lab_1_Shishkin\PTLab1\data\data.txt"
+    #print(path)
+    #reader = TextDataReader()
+    reader = XMLDataReader()
     students = reader.read(path)
     print("Students: ", students)
     rating = CalcRating(students).calc()

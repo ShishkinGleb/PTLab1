@@ -35,7 +35,7 @@
 
 5. Составьте UML-диаграмму классов итогового проекта.
 
-![Lab_1_TP](https://github.com/user-attachments/assets/fd7c9ee1-8778-4078-b04e-7ef072ec7df9)
+![Lab_1_TP](https://github.com/user-attachments/assets/605ff5c5-fe6a-4e0d-80b3-92bcc46588b6)
 
 
 

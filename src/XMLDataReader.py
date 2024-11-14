@@ -8,7 +8,7 @@ class XMLDataReader(DataReader):
         self.students: DataType = dict()
 
     def read(self, path: str) -> DataType:
-        tree = ET.parse('./data/data.xml')
+        tree = ET.parse(path)
         root = tree.getroot()
 
         for student in root.findall('student'):

@@ -10,22 +10,22 @@ class TestXMLDataReader:
     def file_and_data_content(self) -> tuple[str, DataType]:
         xml_mess = "<root>\n" + \
                 "<student name=\"Куликов Юрий Петрович\">\n" + \
-                "<subject name=\"math\" score=\"100\"/>\n" + \
-                "<subject name=\"programming\" score=\"100\"/>\n" + \
-                "<subject name=\"literature\" score=\"76\"/>\n" + \
+                "<subject name=\"Math\" score=\"100\"/>\n" + \
+                "<subject name=\"Programming\" score=\"100\"/>\n" + \
+                "<subject name=\"Literature\" score=\"76\"/>\n" + \
                 "</student>\n" + \
                 "<student name=\"Кузнецов Петр Петрович\">\n" + \
-                "<subject name=\"math\" score=\"91\"/>\n" + \
-                "<subject name=\"sociology\" score=\"90\"/>\n" + \
-                "<subject name=\"chemistry\" score=\"66\"/>\n" + \
+                "<subject name=\"Math\" score=\"91\"/>\n" + \
+                "<subject name=\"Biology\" score=\"90\"/>\n" + \
+                "<subject name=\"Chemistry\" score=\"66\"/>\n" + \
                 "</student>\n" + \
                 "</root>\n"
         data = {
             "Куликов Юрий Петрович": [
-                ("math", 100), ("programming", 100), ("literature", 76)
+                ("Math", 100), ("Programming", 100), ("Literature", 76)
             ],
             "Кузнецов Петр Петрович": [
-                ("math", 91), ("sociology", 90), ("chemistry", 66)
+                ("Math", 91), ("Biology", 90), ("Chemistry", 66)
             ]
         }
         return xml_mess, data

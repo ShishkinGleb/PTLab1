@@ -15,5 +15,5 @@ class GoodStudent:
                 if (subject[1] < 76):
                     bad_mark = bad_mark + 1
             if (bad_mark > 0):
-                count = count - 1
+                self.count = self.count - 1
         return self.count

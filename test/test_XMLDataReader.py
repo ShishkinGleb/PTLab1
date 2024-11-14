@@ -12,13 +12,13 @@ class TestXMLDataReader:
             "<math>100</math>\n<programming>100</programming>\n<litera" + \
             "ture>76</literature>\n</student>\n<student>\n<name>Кузнецов" + \
             " Петр Петрович</name>\n<math>91</math>\n<sociology>90</" + \
-            "sociology>\n<chemistry>61</chemistry>\n</student>\n</root>\n"
+            "sociology>\n<chemistry>66</chemistry>\n</student>\n</root>\n"
         data = {
             "Куликов Юрий Петрович": [
                 ("math", 100), ("programming", 100), ("literature", 76)
             ],
             "Кузнецов Петр Петрович": [
-                ("math", 91), ("sociology", 90), ("chemistry", 61)
+                ("math", 91), ("sociology", 90), ("chemistry", 66)
             ]
         }
         return xml_mess, data

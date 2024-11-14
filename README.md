@@ -12,6 +12,7 @@
 ![image](https://github.com/user-attachments/assets/d6cf130b-8e1e-4789-9c02-13cf40b0991b)
 
 2. Добавьте в проект файл .gitignore и сформируйте его содержимое.
+
 ![image](https://github.com/user-attachments/assets/948434bc-05b4-4b9b-b555-12d4e8de7f95)
 
 3. Добавьте в проект еще один класс – наследник класса DataReader, который должен обрабатывать входной файл формата XML.

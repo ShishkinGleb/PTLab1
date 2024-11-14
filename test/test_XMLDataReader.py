@@ -9,15 +9,15 @@ class TestXMLDataReader:
     @pytest.fixture()
     def file_and_data_content(self) -> tuple[str, DataType]:
         xml_mess = "<root>\n" + \
-                "<student name='Куликов Юрий Петрович'>\n" + \
-                "<subject name='math' score='100'/>\n" + \
-                "<subject name='programming' score='100'/>\n" + \
-                "<subject name='literature' score='76'/>\n" + \
+                "<student name=\"Куликов Юрий Петрович\">\n" + \
+                "<subject name=\"math\" score=\"100\"/>\n" + \
+                "<subject name=\"programming\" score=\"100\"/>\n" + \
+                "<subject name=\"literature\" score=\"76\"/>\n" + \
                 "</student>\n" + \
-                "<student name='Кузнецов Петр Петрович'>\n" + \
-                "<subject name='math' score='91'/>\n" + \
-                "<subject name='sociology' score='90'/>\n" + \
-                "<subject name='chemistry' score='66'/>\n" + \
+                "<student name=\"Кузнецов Петр Петрович\">\n" + \
+                "<subject name=\"math\" score=\"91\"/>\n" + \
+                "<subject name=\"sociology\" score=\"90\"/>\n" + \
+                "<subject name=\"chemistry\" score=\"66\"/>\n" + \
                 "</student>\n" + \
                 "</root>\n"
         data = {

@@ -8,8 +8,8 @@ class TestXMLDataReader:
 
     @pytest.fixture()
     def file_and_data_content(self) -> tuple[str, DataType]:
-        xml_mess = "<root>\n<student>\n<name>Куликов Юрий Петрович</name>\n" + \
-            "<math>100</math>\n<programming>100</programming>\n<litera" + \
+        xml_mess = "<root>\n<student>\n<name>Куликов Юрий Петрович</name" + \
+            ">\n<math>100</math>\n<programming>100</programming>\n<litera" + \
             "ture>76</literature>\n</student>\n<student>\n<name>Кузнецов" + \
             " Петр Петрович</name>\n<math>91</math>\n<sociology>90</" + \
             "sociology>\n<chemistry>66</chemistry>\n</student>\n</root>\n"
